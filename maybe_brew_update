@@ -1,0 +1,3 @@
+#! /usr/bin/env ruby
+
+exec "brew update" if (1..10).to_a.sample == 1
